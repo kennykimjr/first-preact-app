@@ -1,0 +1,36 @@
+{
+  "name": "first-preact-app",
+  "version": "1.0.0",
+  "description": "My first preact app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kennykimjr/first-preact-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kennykimjr/first-preact-app/issues"
+  },
+  "homepage": "https://github.com/kennykimjr/first-preact-app#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "css-loader": "^2.1.1",
+    "express": "^4.16.4",
+    "next": "^8.0.3",
+    "nodemon": "^1.18.10",
+    "npm-run-all": "^4.1.5",
+    "preact": "^8.4.2",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3"
+  }
+}
