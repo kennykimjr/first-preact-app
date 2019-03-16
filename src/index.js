@@ -1,4 +1,8 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import App from "./App.js";
-ReactDOM.render(<App />, document.getElementById("root"));
+import { h, render } from 'preact';
+
+render((
+    <div id="foo">
+        <span>Hello, world!</span>
+        <button onClick={ e => alert("hi!") }>Click Me</button>
+    </div>
+), document.body);
