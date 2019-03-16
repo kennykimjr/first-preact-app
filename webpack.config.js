@@ -1,5 +1,3 @@
-
-41 lines (39 sloc) 979 Bytes
 const path = require("path");
 const webpack = require("webpack");
 const dotenv = require('dotenv').config()
@@ -11,7 +9,6 @@ module.exports = {
   ],
   entry: "./src/index.js",
   mode: "development",
-  watch: true,
   module: {
     rules: [
       {
