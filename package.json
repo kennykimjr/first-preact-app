@@ -21,13 +21,14 @@
   },
   "homepage": "https://github.com/kennykimjr/first-preact-app#readme",
   "devDependencies": {
-    "@zeit/next-preact": "^0.1.0",
     "dotenv": "^7.0.0",
     "express": "^4.16.4",
-    "next": "^7.0.3",
+    "module-alias": "^2.2.0",
+    "next": "^8.0.3",
     "nodemon": "^1.18.10",
     "npm-run-all": "^4.1.5",
     "preact": "^8.4.2",
-    "preact-compat": "^3.18.4"
+    "preact-compat": "^3.18.4",
+    "preact-context": "^1.1.3"
   }
 }
