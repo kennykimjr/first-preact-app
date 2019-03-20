@@ -4,3 +4,4 @@ public/bundle.js
 .env
 public/main.*
 public/*.hot-update.json
+.next
