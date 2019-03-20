@@ -1,13 +1,24 @@
-require('dotenv').config()
+require('dotenv')
+require('@zeit/next-preact/alias')()
+const port = parseInt(process.env.PORT, 10) || 3000
+const dev = process.env.NODE_ENV !== 'production'
 const express = require('express')
-const path = require('path')
 
-const app = express()
-const publicPath = path.join(__dirname, 'public')
-const staticMiddleware = express.static(publicPath)
-const PORT = process.env.PORT
+const { parse } = require('url')
+const next = require('next')
+const app = next({ dev })
 
-app.use(staticMiddleware)
-app.listen(PORT, () => {
-  console.log('Listening on port', PORT, '!')
+const handle = app.getRequestHandler()
+
+app.prepare().then(() => {
+  const server = express()
+
+  server.get('*', (req, res) => {
+    return handle(req, res);
+  })
+
+  server.listen(port, err => {
+    if (err) throw err
+    console.log('Listening on port', port)
+  })
 })
