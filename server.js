@@ -1,5 +1,5 @@
 require('dotenv')
-require('@zeit/next-preact/alias')()
+require('./next-preact/alias')()
 const port = parseInt(process.env.PORT, 10) || 3000
 const dev = process.env.NODE_ENV !== 'production'
 const express = require('express')
