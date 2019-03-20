@@ -20,3 +20,4 @@ I could not have gotten this project done without the following sources to guide
 * [dcatanzaro/nextjs-preact](https://github.com/dcatanzaro/nextjs-preact)
 * [mluberry/nextjs-express](https://github.com/mluberry/nextjs-express/blob/master/server.js)
 * [Building a server-rendered React app with Next.js & Express.js](https://blog.logrocket.com/how-to-build-a-server-rendered-react-app-with-next-express-d5a389e7ab2f)
+* [add createContext API in next preact config](https://github.com/zeit/next-plugins/pull/400)
