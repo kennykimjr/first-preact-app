@@ -20,15 +20,24 @@
     "url": "https://github.com/kennykimjr/first-preact-app/issues"
   },
   "homepage": "https://github.com/kennykimjr/first-preact-app#readme",
-  "devDependencies": {
+  "dependencies": {
     "dotenv": "^7.0.0",
     "express": "^4.16.4",
     "module-alias": "^2.2.0",
-    "next": "^8.0.3",
+    "next": "^8.1.0",
     "nodemon": "^1.18.10",
     "npm-run-all": "^4.1.5",
-    "preact": "^8.4.2",
-    "preact-compat": "^3.18.4",
-    "preact-context": "^1.1.3"
+    "preact": "^10.0.0-beta.2",
+    "preact-render-to-string": "^5.0.3",
+    "preact-ssr-prepass": "^1.0.0"
+  },
+  "_moduleAliases": {
+    "react": "node_modules/preact/compat",
+    "react-dom": "node_modules/preact/compat",
+    "react-ssr-prepass": "node_modules/preact-ssr-prepass"
+  },
+  "devDependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
   }
 }
