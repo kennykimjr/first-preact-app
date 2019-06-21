@@ -1,11 +1,12 @@
-import React from 'react'
-import Link from 'next/link'
+import { h } from 'preact'
+import { useState } from 'preact/hooks'
 
-export default () => (
-  <div>
-    Hello World.{' '}
-    <Link href='/about'>
-      <a>About</a>
-    </Link>
-  </div>
-)
+export default () => {
+  const [count, setCount] = useState(0)
+  return (
+    <div>
+
+      Click to Increment: <button onClick={() => setCount(count + 1)}>{ count }</button>
+    </div>
+  )
+}
