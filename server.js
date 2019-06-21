@@ -1,5 +1,5 @@
 require('dotenv')
-require('./next-preact/alias')()
+require('module-alias/register')
 const port = parseInt(process.env.PORT, 10) || 3000
 const dev = process.env.NODE_ENV !== 'production'
 const express = require('express')
