@@ -3272,18 +3272,12 @@ neo-async@^2.5.0:
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.1.tgz#ac27ada66167fa8849a6addd837f6b189ad2081c"
   integrity sha512-iyam8fBuCUpWeKPGpaNMetEocMt364qkCsfL9JuhjXX6dRnguRVOfk2GZaDpPjcOKiiXCPINZC1GczQ7iTq3Zw==
 
-next-preactx-plugin@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/next-preactx-plugin/-/next-preactx-plugin-1.0.0.tgz#f0a6048923e306406d304d0343d1b231e1eaf928"
-  integrity sha512-Z7EpTH3YfbEhgEkDv0EC9npsgnMARy4q2hxmdJLbEx9AqjR2m0Nalm0AHOS3zfLHSJqPZr1g1d9XyVGWvcZJgA==
+next-preactx-plugin@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/next-preactx-plugin/-/next-preactx-plugin-1.1.2.tgz#2c959d99add272474e65be426d16f4e7b262a8a9"
+  integrity sha512-mZlj93kmksCpL/I8JM9QlOiNAVoY/EiO9QpAS6Ov64c6P5FAYZd6okN5WuQLpODZfd3pNrlLCorl25oaESN+2w==
   dependencies:
     module-alias "^2.2.0"
-    next "^8.1.0"
-    preact "^10.0.0-beta.3"
-    preact-render-to-string "^5.0.4"
-    preact-ssr-prepass "^1.0.0"
-    react "^16.8.6"
-    react-dom "^16.8.6"
 
 next-server@8.1.0:
   version "8.1.0"

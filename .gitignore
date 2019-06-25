@@ -5,3 +5,4 @@ public/bundle.js
 public/main.*
 public/*.hot-update.json
 .next
+yarn-error.log
