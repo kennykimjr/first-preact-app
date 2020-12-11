@@ -2565,9 +2565,9 @@ inherits@2.0.3:
   integrity sha1-Yzwsg+PaQqUC9SRmAiSA9CCCYd4=
 
 ini@^1.3.4, ini@~1.3.0:
-  version "1.3.5"
-  resolved "https://registry.yarnpkg.com/ini/-/ini-1.3.5.tgz#eee25f56db1c9ec6085e0c22778083f596abf927"
-  integrity sha512-RZY5huIKCMRWDUqZlEi72f/lmXKMvuszcMBduliQ3nnWbx9X/ZBQO7DijMEYS9EhHBb2qacRUMtC7svLwe0lcw==
+  version "1.3.7"
+  resolved "https://registry.yarnpkg.com/ini/-/ini-1.3.7.tgz#a09363e1911972ea16d7a8851005d84cf09a9a84"
+  integrity sha512-iKpRpXP+CrP2jyrxvg1kMUpXDyRUFDWurxbnVT1vQPx+Wz9uCYsMIqYuSBLV+PAaZG/d7kRLKRFc9oDMsH+mFQ==
 
 invariant@^2.2.2:
   version "2.2.4"
@@ -3272,10 +3272,10 @@ neo-async@^2.5.0:
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.1.tgz#ac27ada66167fa8849a6addd837f6b189ad2081c"
   integrity sha512-iyam8fBuCUpWeKPGpaNMetEocMt364qkCsfL9JuhjXX6dRnguRVOfk2GZaDpPjcOKiiXCPINZC1GczQ7iTq3Zw==
 
-next-preactx-plugin@^1.1.2:
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/next-preactx-plugin/-/next-preactx-plugin-1.1.2.tgz#2c959d99add272474e65be426d16f4e7b262a8a9"
-  integrity sha512-mZlj93kmksCpL/I8JM9QlOiNAVoY/EiO9QpAS6Ov64c6P5FAYZd6okN5WuQLpODZfd3pNrlLCorl25oaESN+2w==
+next-preactx-plugin@^1.1.3:
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/next-preactx-plugin/-/next-preactx-plugin-1.1.3.tgz#7c1a0805f467651529cccc176e0b89503b7b10c8"
+  integrity sha512-yfQG4h+YdWpXuPqz83eXip++fkUl9fGm/c1splfi2wTYwJLaDoiDh0AC+eVdwxpp/i7AaHtL1p/b2BzmXkgPwg==
   dependencies:
     module-alias "^2.2.0"
 
